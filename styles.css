@@ -27,3 +27,7 @@ a.example-link {
     color: #0066cc;
     text-decoration: none;
 }
+
+a.example-link:hover {
+    color: #ff6600;
+}
