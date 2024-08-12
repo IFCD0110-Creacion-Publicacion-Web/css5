@@ -31,3 +31,35 @@ a.example-link {
 a.example-link:hover {
     color: #ff6600;
 }
+
+/* Estilos de párrafos */
+/* Pseudoelemento ::before añade contenido antes del párrafo */
+p.example-paragraph {
+    color: #555;
+    font-size: 1rem;
+}
+
+p.example-paragraph::before {
+    content: "Nota: ";
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* Estilos para la lista */
+/* Pseudoclase :nth-child(odd) aplica estilo a los elementos impares */
+ul.example-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+ul.example-list li {
+    padding: 5px;
+    background-color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+ul.example-list li:nth-child(odd) {
+    background-color: #c1c1c1;
+}
+
