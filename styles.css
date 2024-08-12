@@ -1,0 +1,29 @@
+/* Estilos básicos */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del contenedor principal*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para los enlaces */
+/* pseudoclase :hover cambiar el color del texto al pasar el ratón */
+
+a.example-link {
+    color: #0066cc;
+    text-decoration: none;
+}
